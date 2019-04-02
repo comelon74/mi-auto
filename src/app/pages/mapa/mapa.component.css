@@ -1,0 +1,30 @@
+.mapa{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mapa .info{
+    width: auto;
+    height: auto;
+
+}
+
+.mapa .imgMap{
+    width:200px;
+    height: 200px;
+}
+.mapa iframe{
+    width: 100%;
+
+}
+
+
+
+@media(min-width:576px){
+    
+    .mapa iframe{
+        width: 80%;
+        
+    }
+}
