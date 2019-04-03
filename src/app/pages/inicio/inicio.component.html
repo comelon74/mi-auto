@@ -41,31 +41,11 @@
 <h3>Destacados</h3>
 </div>
 <section class="principales">
-  <div class="producto">
-      <img src="assets/ima/slider/carro1.jpg" alt="error">
-      <h3>Auto modelo 1</h3>
-      <h5>este vehiculo es barato</h5>
-      <ul>Precio: $15000</ul>
-      <div>
-          <button type="button" class="btn btn-light">Ver mas</button>
-          <button type="button" class="btn btn-light">Llamar</button>
-      </div>
-  </div>
-  <div class="producto">
-      <img src="assets/ima/slider/carro1.jpg" alt="error">
-      <h3>Auto modelo 1</h3>
-      <h5>este vehiculo es barato</h5>
-      <ul>Precio: $15000</ul>
-      <div>
-          <button type="button" class="btn btn-light">Ver mas</button>
-          <button type="button" class="btn btn-light">Llamar</button>
-      </div>
-  </div>
-  <div class="producto">
-      <img src="assets/ima/slider/carro1.jpg" alt="error">
-      <h3>Auto modelo 1</h3>
-      <h5>este vehiculo es barato</h5>
-      <ul>Precio: $15000</ul>
+  <div class="producto" *ngFor="let item of items">
+      <img [src]="item.ima" alt="error">
+      <h3>{{item.modelo}} </h3>
+      <h5>{{item.descripcion}}</h5>
+      <ul>${{item.precio}}</ul>
       <div>
           <button type="button" class="btn btn-light">Ver mas</button>
           <button type="button" class="btn btn-light">Llamar</button>
