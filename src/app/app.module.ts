@@ -9,6 +9,7 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { PiePagComponent } from './share/pie-pag/pie-pag.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { ConocenosComponent } from './pages/conocenos/conocenos.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
     PiePagComponent,
     MapaComponent,
     LoginComponent,
-    ContactoComponent
+    ContactoComponent,
+    ConocenosComponent
   ],
   imports: [
     BrowserModule,

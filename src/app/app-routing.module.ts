@@ -3,11 +3,13 @@ import { MapaComponent } from './pages/mapa/mapa.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { Routes,RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
+import { ConocenosComponent } from './pages/conocenos/conocenos.component';
 
 const app_routes:Routes=[
     {path:'',component:InicioComponent},
     {path:'mapa',component:MapaComponent},
     {path:'contacto',component:ContactoComponent},
+    {path:'conocenos',component:ConocenosComponent},
     {path:'**',pathMatch:'full', redirectTo:''}
 ]
 
