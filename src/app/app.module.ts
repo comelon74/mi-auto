@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './share/encabezado/encabezado.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { PiePagComponent } from './share/pie-pag/pie-pag.component';
+import { LoginComponent } from './pages/login/login.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PiePagComponent } from './share/pie-pag/pie-pag.component';
     EncabezadoComponent,
     InicioComponent,
     PiePagComponent,
-    MapaComponent
+    MapaComponent,
+    LoginComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

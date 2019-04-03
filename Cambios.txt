@@ -1,5 +1,3 @@
-Probando cambios
-Segundo cambio funcionando
 Checar que existan cambios
 git pull //Checar cambios
 Subir cambios
