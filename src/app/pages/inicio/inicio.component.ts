@@ -24,6 +24,12 @@ export class InicioComponent implements OnInit {
     modelo:"Auto modelo 3",
     descripcion:"Este auto no es tan genial",
     precio:21000
+  },
+  {
+    ima:"assets/ima/slider/carro1.jpg",
+    modelo:"Auto modelo 4",
+    descripcion:"Este tampoco es tan genial",
+    precio:14000
   }
  ]
   constructor() { }
