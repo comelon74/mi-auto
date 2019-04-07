@@ -10,6 +10,7 @@ import { PiePagComponent } from './share/pie-pag/pie-pag.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { ConocenosComponent } from './pages/conocenos/conocenos.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { ConocenosComponent } from './pages/conocenos/conocenos.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
