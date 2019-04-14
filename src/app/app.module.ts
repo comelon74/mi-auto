@@ -12,6 +12,7 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
 import { ConocenosComponent } from './pages/conocenos/conocenos.component';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
     MapaComponent,
     LoginComponent,
     ContactoComponent,
-    ConocenosComponent
+    ConocenosComponent,
   ],
   imports: [
     BrowserModule,

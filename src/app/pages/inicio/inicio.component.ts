@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent implements OnInit {
- items=[
+  items=[
    {
      ima:"assets/ima/slider/carro1.jpg",
      modelo:"Auto modelo 1",
@@ -32,8 +32,8 @@ export class InicioComponent implements OnInit {
     precio:14000
   }
  ]
-  constructor() { }
-
+  constructor() {
+  }
   ngOnInit() {
   }
 
