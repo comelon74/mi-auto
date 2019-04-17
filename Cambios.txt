@@ -12,4 +12,6 @@ segundo cambio jorge
 Para iniciar el servidor sin verlo mas que en el equipo que se ejecuta
 ng serve -o
 Para iniciar el servidor y poder verlo desde un movil o otro dispositivo
-ng serve --host=0.0.0.0 --disable-host-check
+ng serve --host=0.0.0.0 --disable-host-check 
+
+prueba de add de andrea**
