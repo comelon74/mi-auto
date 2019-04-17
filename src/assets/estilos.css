@@ -14,13 +14,14 @@
 }
 
 #ima1 {
-	background-image: url(ima/slider/carro1.jpg);
+    background-image: url(ima/slider/autos.png);
+    
 }
 #ima2 {
-	background-image: url(ima/slider/carro2.jpg);
+	background-image: url(ima/slider/automotriz.png);
 }
 #ima3 {
-	background-image: url(ima/slider/carro3.jpg);
+	background-image: url(ima/slider/camino.png);
 }
 
 .menu-hamburguesa .dropdown-menu{
